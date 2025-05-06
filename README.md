@@ -1,0 +1,1 @@
+# close-duplicate-tabs-chrome-extension
