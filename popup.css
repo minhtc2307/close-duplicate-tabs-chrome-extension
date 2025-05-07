@@ -1,0 +1,40 @@
+:root {
+    --button-color: #4285f4;
+    --button-hover-color: #3367d6;
+    --text-color: #666;
+}
+
+body {
+    width: auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-width: 180px;
+}
+
+button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+#status {
+    font-size: 14px;
+    color: var(--text-color);
+    padding-top: 10px;
+    display: none;
+}
+
+#status:not(.hidden) {
+    display: block;
+}
